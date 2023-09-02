@@ -29,6 +29,9 @@ const getAllproducts = expressAsyncHandler(async (req, res, next) => {
     data: product,
   });
 });
+
+
+
 export default {
   getAllproducts,
   findproduct,
